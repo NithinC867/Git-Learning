@@ -4,4 +4,8 @@ git init -- initialize git in cwd
 git status -- list all untracked files
 git add-A -- addinf all changes to staging area
 git commit-m "commit message" -- to commit with description message
-git p
+git remote add remote_name path [adding remote repository]
+eg: git remote add origin https://github.com/NithinC867/Git-Learning.git
+git push remote_name branch
+eg: git push origin master
+git branch -- [list all branches]
